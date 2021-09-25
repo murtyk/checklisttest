@@ -12,4 +12,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           template_dir: './'
-          mapping: 'feature=/'
+          mapping: 'feature='
