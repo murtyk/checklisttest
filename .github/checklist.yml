@@ -11,4 +11,5 @@ jobs:
         uses: PokaInc/pr-template-action@v1.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          template_dir: '.'
+          template_dir: './'
+          mapping: 'feature=/'
